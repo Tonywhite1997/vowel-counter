@@ -2,6 +2,8 @@ const textField = document.querySelector(".text__field")
 const countButton = document.querySelector(".count__button")
 
 
+//ORDER OF N AS WORST CASE SCENARIO
+
 function countVowel(){
     let textFieldValues = textField.value.toLowerCase()
     let count = 0
@@ -22,6 +24,8 @@ function countVowel(){
 countButton.addEventListener("click", countVowel)
 
 
+
+//ORDER OF N*2 AS WORST CASE SCENARIO
 
 
 // function countVowel(){
